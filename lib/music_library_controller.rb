@@ -18,7 +18,7 @@ class MusicLibraryController
 
     input = gets.strip
     #https://stackoverflow.com/questions/948135/how-to-write-a-switch-statement-in-ruby
-    #this is a switch statment
+    #this is a switch statment works better than if elses.
     case input
       when 'list songs'
         list_songs
